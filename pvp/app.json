@@ -1,0 +1,28 @@
+{
+    "name" : "pvp",
+    "author" : "胡桃",
+    "namespace" : "pvp",
+    "message_mode" : "old_string",
+    "info" : "【尽伏诛】12 人个人群 PVP 对战插件（青果版，依赖 OlivaDiceCore 内置骰子）。骰主注册后台群并声明游戏名，管理注册玩家与配置活动，玩家在各自个人群发起 PVP、声明道具、逐回合掷骰，机器人自动结算伤害、处理死亡掉落并双群播报战报。",
+    "version" : "1.0.0",
+    "svn" : 1,
+    "compatible_svn" : 190,
+    "priority" : 19990,
+    "support" : [
+        {
+            "sdk" : "onebot",
+            "platform" : "qq",
+            "model" : "all"
+        },
+        {
+            "sdk" : "qqGuildv2_link",
+            "platform" : "qq",
+            "model" : "all"
+        },
+        {
+            "sdk" : "all",
+            "platform" : "all",
+            "model" : "all"
+        }
+    ]
+}

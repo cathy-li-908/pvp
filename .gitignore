@@ -1,0 +1,14 @@
+# Python 运行产物
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# 测试运行时生成的临时目录（run_tests.py 每次都会重建）
+pvp_tests/work/
+pvp_tests/plugin/
+pvp_tests/tmp/
+
+# 插件运行时数据（部署环境才需要，属于各人自己的存档）
+pvp/data/
